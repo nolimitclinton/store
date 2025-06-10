@@ -1,0 +1,38 @@
+{
+  "name": "nolimitstore",
+  "version": "0.0.2",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [  
+  "react",
+  "react-native",
+  "state",
+  "store",
+  "state-management",
+  "redux-alternative",
+  "useSyncExternalStore",
+  "useStore",
+  "useDispatch",
+  "hooks",
+  "typescript",
+  "lightweight-redux",
+  "zustand-alternative",
+  "global-state",
+  "react-context"
+],
+  "author": "Clinton Onuoha",
+  "license": "ISC",
+  "description": "A lightweight Redux-like store for React and React Native, with hooks and selector support. Built with TypeScript, no boilerplate, and full reactivity via useSyncExternalStore.",
+  "devDependencies": {
+    "@types/react":"^19.1.6",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
+
